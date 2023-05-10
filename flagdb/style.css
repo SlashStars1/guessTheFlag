@@ -1,0 +1,91 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+
+  height: 100vh;
+  width: 100vw;
+}
+
+:root {
+  --main-color: rgb(250, 255, 216);
+
+  /* THIS IS MY TEXT COLOR*/
+  --secondary-color: rgb(0, 90, 128);
+
+  --accent-color: rgb(189, 224, 254);
+}
+
+h1 {
+  text-align: center;
+}
+
+#headerDiv {
+  display: flex;
+  /*makes the div a flex box so elements are displayed horizontally in a row*/
+  justify-content: center;
+  /*centers the flex box to the middle of the page */
+  gap: 15%;
+  /*adds gap between the elements in a row */
+  margin: 1%;
+}
+
+
+#timerDiv,
+#scoreDiv {
+  text-align: center;
+  /*centers the score and title labels inside the divs  */
+}
+
+#mainDiv,
+#wrongDiv {
+  text-align: center;
+  /* makes the div a flex box  */
+  display: flex;
+
+  /*makes the flex box a column*/
+  flex-direction: column;
+
+  /*centers the flex box to the middle of the page */
+  justify-content: center;
+
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+
+  border-radius: 10px;
+
+  background-color: var(--accent-color);
+
+  padding: 5%;
+}
+
+#wrongDiv {
+  padding: 2%;
+
+}
+
+
+
+#startButton {
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+#startButton:hover {
+  opacity: 80%;
+  cursor: pointer;
+
+}
+
+input {
+  border-radius: 5px;
+  margin-top: 2.5%;
+
+}
