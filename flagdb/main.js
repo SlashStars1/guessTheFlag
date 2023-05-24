@@ -98,7 +98,6 @@ const countryCode = Object.entries({ // returns an array whose elements are arra
   "er": "Eritrea",
   "es": "Spain",
   "et": "Ethiopia",
-  "eu": "European Union",
   "fi": "Finland",
   "fj": "Fiji",
   "fm": "Micronesia",
